@@ -5,12 +5,16 @@ $('.products__slider').slick({
     infinite:false,
 
 
+   
+
+
+})
+$('.questions__item-title').on('click', function(){
+    $(this).parent().addClass()
 })
 
 
-const slider = document.querySelector('.products__slider')
-console.log(`slider`, slider);
-})
+
 
 // const header = document.querySelector('.header')
 // window.addEventListener('scroll', () => {
@@ -24,4 +28,5 @@ console.log(`slider`, slider);
 //     } else {
 //         div.removeClass('small');
 //     }
-// });
+})
+
